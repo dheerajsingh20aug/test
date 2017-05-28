@@ -98,4 +98,4 @@ A nice feature would be the ability to search for a location.  At the moment its
 
 # Notes
 
-* Only tested on the chrome browser.
+* Only tested on the chrome and mozilla browser.
