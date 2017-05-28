@@ -31,6 +31,7 @@ function loadWeather() {
     }
 }
 function dataReady1(data) {
+	// Comment added by User 3
     return {
         type: DATA_LOADED,
         data
