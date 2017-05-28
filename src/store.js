@@ -30,6 +30,12 @@ function loadWeather() {
         return fetch(url).then(resp => resp.json()).then((data) => dispatch( dataReady(data) ) )
     }
 }
+function dataReady1(data) {
+    return {
+        type: DATA_LOADED,
+        data
+    }
+}
 
 let store = createStore( reducer, applyMiddleware( reduxThunk) )
 
